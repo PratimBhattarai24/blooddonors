@@ -1,0 +1,11 @@
+.container {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 50%;
+}
+.hero-text {
+  scroll-snap-align: start;
+}
+.card {
+  scroll-snap-align: end;
+}
